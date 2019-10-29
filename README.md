@@ -16,55 +16,43 @@ This tutorial is for those who have some or more experience in using Atom, GitHu
 1. Find a Jekyll theme online that supports GitHub Pages.
 2. Fork the pre-existing Jekyll theme to get your own copy.
 3. Rename the forked repository if required.
-4. 
 ![](GitHub_Forking.gif)
+4. Run the forked template to see if there are no issue running the template.
+5. To run the template, go to settings tab in github. Under heading GitHub Pages, check if the site is successfully published. If not follow the instructions provided.
+6. The most common issue is that the original developer maybe using a CNAME which can't be same for any two repositories.
+7. Clone the repository locally to update the resume.
+8. After cloning, go to the project folder using terminal and run the following commands to start the Jekyll server:
+```
+$bundle install
+$bundle exec jekyll serve
+```
+9. There maybe a scenario where the bundle install may fail to install a dependency but try reinstalling that dependency using the link provided in the error.
+10. From the terminal there is a server address that is provided in the terminal. Mostly it is http://127.0.0.1:4000 or http://localhost:4000
+11. After successfully running the template locally, make the required chanegs in \_config.yml like updating the name and other information.
+12. There are other settings also like enabling or disabling the different parts of the template like any section or images.
+13. If the template uses an image, then simply replace the image with the one that is more appropriate. The images might be under images folder in the root directory of the project.
+14. Update the content of the resume under the \_data folder.
+15. There might be a single or multiple YAML files used depending on the resume structure.
+16. Update the values in the key-value pair and add/remove the number of parts required.
 
-To test locally, run the following in your terminal:
+17. After doing all the changes, commit and push the repository to the GitHub.
+18. Run the GitHub Pages link for that repository to verify if the website is running correctly.
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+### More Resources
 
-### Customizing
+Detail tutorial for Jekyll integration with GitHub Pages - https://www.mikedane.com/static-site-generators/jekyll/
 
-First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
+#### Author and Acknowledgements
 
-#### Options/configuration
+Resume used - https://github.com/jglovier/resume-template ([Joel Glovier](https://github.com/jglovier/))
+Group Members -
+  - Wahegurupal Mankoo
+  - Dilawer Hussain
 
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
+### FAQs
 
-[...write these out...]
+Q - Why the changes are not reflected when the page is reloaded locally?
+A - This happens when there is a syntax error in the changes that were made. Review the changes.
 
-#### Editing content
-
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
-
-### Publishing to GitHub Pages for free
-
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
-
-### Configuring with your own domain name
-
-To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
-
-### Themes
-
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
-
-## Roadmap
-
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
-
-## Contributing
-
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
-
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
-
-## License
-
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
-
-Disclaimer: Use of Homer J. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
+Q - Why the changes made in the \_config.yml file not reflected in the website running locally.
+A - When changes are made to the config files the server is required to be restarted.

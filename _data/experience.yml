@@ -3,13 +3,13 @@
 - company: IG Wealth Management
   position: Associate Software Developer, Co-op Work Term 3
   duration: May, 2019 &mdash; Present
-  summary: <ul><li>Updated the existing jobs to read files with updated format from external vendor</li><li>Fixed the existing bugs to improve the data quality</li><li>Unit tested jobs to verify data and product quality</li><li>Developed new set of jobs for gathering data from multiple sources and send to the differnt teams</li></ul>
+  summary: <ul class="resume-item-list"><li>Updated the existing jobs to read files with updated format from external vendor</li><li>Fixed the existing bugs to improve the data quality</li><li>Unit tested jobs to verify data and product quality</li><li>Developed new set of jobs for gathering data from multiple sources and send to the differnt teams</li></ul>
 
 # Work Term 2
 - company: Wawanesa Insurance
   position: Application Developer I, Co-op Work Term 2
   duration:  Sept, 2018 &mdash; Dec, 2018
-  summary: <ul><li>Bilingualized broker’s online tool (Broker Portal) for Quebec’s French speaking brokers</li><li>Resolved the issues assigned to enhance the user experence</li><li>Communicated with other teams involved to implement new functionality and resolve the issues</li><li>Added new line of product in Broker Portal for brokers to get required up to date information about the product</li><li>Presented the work accomplished to other teams</li></ul>
+  summary: <ul class="resume-item-list"><li>Bilingualized broker’s online tool (Broker Portal) for Quebec’s French speaking brokers</li><li>Resolved the issues assigned to enhance the user experence</li><li>Communicated with other teams involved to implement new functionality and resolve the issues</li><li>Added new line of product in Broker Portal for brokers to get required up to date information about the product</li><li>Presented the work accomplished to other teams</li></ul>
 
 # Work Term 1
 - company: Race Runner
