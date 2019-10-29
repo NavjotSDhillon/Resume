@@ -44,7 +44,7 @@ Detail tutorial for Jekyll integration with GitHub Pages - https://www.mikedane.
 
 #### Author and Acknowledgements
 
-Resume used - https://github.com/jglovier/resume-template ([Joel Glovier](https://github.com/jglovier/))
+Resume used - https://github.com/jglovier/resume-template ([Joel Glovier](https://github.com/jglovier/))  
 Group Members -
   - Wahegurupal Mankoo
   - Dilawer Hussain
