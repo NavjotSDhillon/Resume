@@ -24,7 +24,7 @@ There are few requirements that are required to be met before Jekyll could be in
 [Here](https://jekyllrb.com/docs/installation/) is the guide that needs to be followed for installing Jekyll and for any of the missing dependencies.
 
 ## Instructions
-
+### How to initially setup GitHub Pages?
 1. Find a Jekyll theme online that supports GitHub Pages.
 2. Fork the pre-existing Jekyll theme to get your own copy.
 3. Rename the forked repository if required.
@@ -32,23 +32,28 @@ There are few requirements that are required to be met before Jekyll could be in
 4. Run the forked template to see if there are no issue running the template.
 5. To run the template, go to settings tab in github. Under heading GitHub Pages, check if the site is successfully published. If not follow the instructions provided.
 6. The most common issue is that the original developer maybe using a CNAME which can't be same for any two repositories.
-7. Clone the repository locally to update the resume.
-8. After cloning, go to the project folder using terminal and run the following commands to start the Jekyll server:
+
+### How to run the website locally?
+1. Clone the repository locally to update the resume.
+2. After cloning, go to the project folder using terminal and run the following commands to start the Jekyll server:
 ```
 $bundle install
 $bundle exec jekyll serve
 ```
-9. There maybe a scenario where the bundle install may fail to install a dependency but try reinstalling that dependency using the link provided in the error.
-10. From the terminal there is a server address that is provided in the terminal. Mostly it is http://127.0.0.1:4000 or http://localhost:4000
-11. After successfully running the template locally, make the required chanegs in \_config.yml like updating the name and other information.
-12. There are other settings also like enabling or disabling the different parts of the template like any section or images.
-13. If the template uses an image, then simply replace the image with the one that is more appropriate. The images might be under images folder in the root directory of the project.
-14. Update the content of the resume under the \_data folder.
-15. There might be a single or multiple YAML files used depending on the resume structure.
-16. Update the values in the key-value pair and add/remove the number of parts required.
+3. There maybe a scenario where the bundle install may fail to install a dependency but try reinstalling that dependency using the link provided in the error.
+4. From the terminal there is a server address that is provided in the terminal. Mostly it is http://127.0.0.1:4000 or http://localhost:4000
 
-17. After doing all the changes, commit and push the repository to the GitHub.
-18. Run the GitHub Pages link for that repository to verify if the website is running correctly.
+### Where to update the content of the resume?
+1. After successfully running the template locally, make the required chanegs in \_config.yml like updating the name and other information.
+2. There are other settings also like enabling or disabling the different parts of the template like any section or images.
+3. If the template uses an image, then simply replace the image with the one that is more appropriate. The images might be under images folder in the root directory of the project.
+4. Update the content of the resume under the \_data folder.
+5. There might be a single or multiple YAML files used depending on the resume structure.
+6. Update the values in the key-value pair and add/remove the number of parts required.
+
+### Final 
+1. After doing all the changes, commit and push the repository to the GitHub.
+2. Run the GitHub Pages link for that repository to verify if the website is running correctly.
 
 ## More Resources
 
