@@ -1,16 +1,21 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+# The Element
+- project: The ELEMENT
+  role: Software Engineering 1 Group Project
+  #duration: 2012 &mdash; Present
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: The Element is a music listening platform for android, simplifying the music listening experience for the user while recommending playlists to them. The application was developed in Android Studio using agile methodology
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+# CSVtoSQL
+- project: CSVtoSQL
+  # role: 
+  #duration: 2007 &mdash; Present
+  url: "https://github.com/NavjotSDhillon/CSVtoSQL"
+  description: CSVtoSQL is a Python 3 script to parse a CSV file into SQL insert statements. It helps in creating insert statements for large records which are difficult to create manually
+
+- project: WageIt
+  #role: Co-Founder & Organizer
+  #duration: 2007 &mdash; Present
+  #url: "#"
+  description: WageIt is an Android application that helps a person to calculate the final amount after the tax and other deduction from their paycheck providing both bi-weekly and monthly earnings

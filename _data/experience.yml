@@ -1,19 +1,18 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Work Term 3
+- company: IG Wealth Management
+  position: Associate Software Developer, Co-op Work Term 3
+  duration: May, 2019 &mdash; Present
+  summary: <ul><li>Updated the existing jobs to read files with updated format from external vendor</li><li>Fixed the existing bugs to improve the data quality</li><li>Unit tested jobs to verify data and product quality</li><li>Developed new set of jobs for gathering data from multiple sources and send to the differnt teams</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# Work Term 2
+- company: Wawanesa Insurance
+  position: Application Developer I, Co-op Work Term 2
+  duration:  Sept, 2018 &mdash; Dec, 2018
+  summary: <ul><li>Bilingualized broker’s online tool (Broker Portal) for Quebec’s French speaking brokers</li><li>Resolved the issues assigned to enhance the user experence</li><li>Communicated with other teams involved to implement new functionality and resolve the issues</li><li>Added new line of product in Broker Portal for brokers to get required up to date information about the product</li><li>Presented the work accomplished to other teams</li></ul>
 
-
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# Work Term 1
+- company: Race Runner
+  position: Web Developer Intern, Co-op Work Term 1
+  duration:   Jan, 2018  &mdash; April, 2018
+  summary: <ul class="resume-item-list"><li>Created animation for runners using their race data</li><li>Worked with the marketing team to improve the current web experience and also developed new functionality for the users</li><li>Gave feedback and ideas to the marketing team as a user for their initiatives to attract new customer and retain their current users</li><li>Improved SEO for the pages that are using WordPress and also created templates for email marketing</li></ul>

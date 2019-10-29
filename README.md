@@ -1,12 +1,23 @@
-# Resume template
+# How to Host Your Resume on GitHub Page
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+This tutorial is for hosting a resume to GitHub pages by using Jekyll templates to stylize the resume.
 
-![img](images/screenshot.png)
+### Audience
 
-## Docs
+This tutorial is for those who have some or more experience in using Atom, GitHub and Markdown with no prior experience in Jekyll.
 
-### Running locally
+### Prerequisites
+
+- Create a GitHub account.
+- Install Jekyll by following the guide on this [link](https://jekyllrb.com/docs/installation/) for different Operating Systems if not already installed. Jekyll requires Ruby, RubyGems and GCC and Make for which the guide is already provided in the given link.
+
+### Instructions
+
+1. Find a Jekyll theme online that supports GitHub Pages.
+2. Fork the pre-existing Jekyll theme to get your own copy.
+3. Rename the forked repository if required.
+4. 
+![](GitHub_Forking.gif)
 
 To test locally, run the following in your terminal:
 
