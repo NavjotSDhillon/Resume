@@ -1,22 +1,34 @@
 # How to Host Your Resume on GitHub Page
 
-This tutorial is for hosting a resume to GitHub pages by using Jekyll templates to stylize the resume.
+Jekyll is a tool used to create static website that can be pushed to GitHub Pages. There are many Jekyll templates available online that supports GitHub Pages which can be used to create a website easily.
 
-### Audience
+In this guide we will fork a Jekyll resume template, edit and run it locally. The changes will be then pushed to the GitHub repository. Then content in the repository is hosted on the GitHub Pages.
+
+## Audience
 
 This tutorial is for those who have some or more experience in using Atom, GitHub and Markdown with no prior experience in Jekyll.
 
-### Prerequisites
+## Prerequisites
 
-- Create a GitHub account.
-- Install Jekyll by following the guide on this [link](https://jekyllrb.com/docs/installation/) for different Operating Systems if not already installed. Jekyll requires Ruby, RubyGems and GCC and Make for which the guide is already provided in the given link.
+There are few requirements that are required to be met before Jekyll could be installed. Verify if these dependencies are already installed and have the required version using the provided Command Line Interface(CLI) commands:
+  - Git: `git --version`.
 
-### Instructions
+  - Ruby version 2.4.0 or above: `ruby -v`
+
+  - RubyGems: `gem -v`
+
+  - GCC: `gcc -` and `g++ -v`
+
+  - Make: `make -v`
+
+[Here](https://jekyllrb.com/docs/installation/) is the guide that needs to be followed for installing Jekyll and for any of the missing dependencies.
+
+## Instructions
 
 1. Find a Jekyll theme online that supports GitHub Pages.
 2. Fork the pre-existing Jekyll theme to get your own copy.
 3. Rename the forked repository if required.
-![](GitHub_Forking.gif)
+![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/GitHub_Forking.gif?raw=true)
 4. Run the forked template to see if there are no issue running the template.
 5. To run the template, go to settings tab in github. Under heading GitHub Pages, check if the site is successfully published. If not follow the instructions provided.
 6. The most common issue is that the original developer maybe using a CNAME which can't be same for any two repositories.
@@ -38,18 +50,18 @@ $bundle exec jekyll serve
 17. After doing all the changes, commit and push the repository to the GitHub.
 18. Run the GitHub Pages link for that repository to verify if the website is running correctly.
 
-### More Resources
+## More Resources
 
 Detail tutorial for Jekyll integration with GitHub Pages - https://www.mikedane.com/static-site-generators/jekyll/
 
-#### Author and Acknowledgements
+## Author and Acknowledgements
 
 Resume used - https://github.com/jglovier/resume-template ([Joel Glovier](https://github.com/jglovier/))  
 Group Members -
   - Wahegurupal Mankoo
   - Dilawer Hussain
 
-### FAQs
+## FAQs
 
 Q - Why the changes are not reflected when the page is reloaded locally?
 A - This happens when there is a syntax error in the changes that were made. Review the changes.
