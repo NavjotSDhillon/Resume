@@ -66,29 +66,25 @@ After running the template successfully on the local system, make changes in dif
    - There might be a single or multiple YAML files that covers different sections of the resume.
    - Update the values for each key-value pairs. Comment the key-value pair that is not required.
    - Depending on the content you need to insert into that section, the object of that sectioned can be inserted or removed (In screenshot below, each of these green boxes represent different objects of the section)
-   ![]()
+   ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Objects.png?raw=true)
 
-### Final 
-1. After doing all the changes, commit and push the update to the GitHub repository.
-2. Run the GitHub Pages link for that repository to verify if the website is running correctly.
+### What to do once the changes are made?
+After the resume is updated, upload the changes to the GitHub repository. Once the repository is updated with new content, use the link used previously to load the webpage using GitHub Pages. You Resume is now published online using Jekyll and GitHub Pages.
 
 ## More Resources
-
 Tutorial to learning more about Jekyll and hosting the webpages on GitHub Pages - https://www.mikedane.com/static-site-generators/jekyll/
 
 ## Author and Acknowledgements
-
-https://jekyllrb.com/docs/  
-https://jekyllrb.com/resources/  
-Resume used in this guide - https://github.com/jglovier/resume-template ([Joel Glovier](https://github.com/jglovier/))  
+[Jekyll brief installtion guide](https://jekyllrb.com/docs/)  
+[Jekyll Resources with all the links](https://jekyllrb.com/resources/)  
+[Joel Glovier's Template](https://github.com/jglovier/resume-template) (Resume template used in this guide)
 Group Members -
   - Wahegurupal Mankoo
   - Dilawer Hussain
 
 ## FAQs
-
-Q - Why the changes are not reflected when the page is reloaded locally?
+Q - Why the changes are not reflected when the page is reloaded locally?  
 A - If the changes are made in the \_congif.yml file, then the server is required to be restarted. If the changes are made in any other file, then there is a high possibility of a syntax error in the changes that were made. Review the changes.
 
-Q - Why the changes made in the \_config.yml file not reflected in the website running locally.
-A - When changes are made to the config files the server is required to be restarted.
+Q - How to fix the issue if `ffi` installation is failing while installing the bundle?
+A - Try to manually install `ffi` using the link given in the error. If it is failing again, refer to paulomcnally's comment on this [link](https://github.com/ffi/ffi/issues/611#issuecomment-364621532).
