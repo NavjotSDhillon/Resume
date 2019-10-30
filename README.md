@@ -6,7 +6,7 @@ In this guide we will fork a Jekyll resume template, edit and run it locally. Th
 
 ## Audience
 
-This tutorial is for those who have some or more experience in using Atom, GitHub and Markdown with no prior experience in Jekyll.
+This tutorial is targeted for those who have some or more experience in using Atom( or any other text editor that supports YAML and markdown), GitHub and Markdown. There is no prior experience required in Jekyll.
 
 ## Prerequisites
 
@@ -26,9 +26,17 @@ There are few requirements that are required to be met before Jekyll could be in
 ## Instructions
 ### How to initially setup GitHub Pages?
 1. Find a Jekyll theme online that supports GitHub Pages.
-2. Fork the pre-existing Jekyll theme to get your own copy.
-3. Rename the forked repository if required.
+    > Here are few links where you can find templates:
+    > - https://jamstackthemes.dev/ssg/jekyll/
+    > - http://jekyllthemes.org/
+    > - https://jekyllthemes.io/
+2. Fork the chosen pre-existing Jekyll theme to get the copy in your own repository.
+3. Rename the forked repository based on the requirement.
 ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/GitHub_Forking.gif?raw=true)
+4. Verify if the branch is 'gh-pages'. If not then create the branch named 'gh-pages'.
+4. Verify if the template is setup and runs properly in the GitHub Pages by following these steps:
+  a. Go to the Setting tab.
+  b. Verify 
 4. Run the forked template to see if there are no issue running the template.
 5. To run the template, go to settings tab in github. Under heading GitHub Pages, check if the site is successfully published. If not follow the instructions provided.
 6. The most common issue is that the original developer maybe using a CNAME which can't be same for any two repositories.
@@ -57,10 +65,12 @@ $bundle exec jekyll serve
 
 ## More Resources
 
-Detail tutorial for Jekyll integration with GitHub Pages - https://www.mikedane.com/static-site-generators/jekyll/
+Tutorial to learning more about Jekyll and hosting the webpages on GitHub Pages - https://www.mikedane.com/static-site-generators/jekyll/
 
 ## Author and Acknowledgements
 
+https://jekyllrb.com/docs/
+https://jekyllrb.com/resources/
 Resume used - https://github.com/jglovier/resume-template ([Joel Glovier](https://github.com/jglovier/))  
 Group Members -
   - Wahegurupal Mankoo
@@ -69,7 +79,7 @@ Group Members -
 ## FAQs
 
 Q - Why the changes are not reflected when the page is reloaded locally?
-A - This happens when there is a syntax error in the changes that were made. Review the changes.
+A - If the changes are made in the \_congif.yml file, then the server is required to be restarted. If the changes are made in any other file, then there is a high possibility of a syntax error in the changes that were made. Review the changes.
 
 Q - Why the changes made in the \_config.yml file not reflected in the website running locally.
 A - When changes are made to the config files the server is required to be restarted.
