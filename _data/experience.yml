@@ -3,7 +3,7 @@
 - company: IG Wealth Management
   position: Associate Software Developer, Co-op Work Term 3
   duration: May, 2019 &mdash; Present
-  summary: <ul class="resume-item-list"><li>Updated the existing jobs to read files with updated format from external vendor</li><li>Fixed the existing bugs to improve the data quality</li><li>Unit tested jobs to verify data and product quality</li><li>Developed new set of jobs for gathering data from multiple sources and send to the differnt teams</li></ul>
+  summary: <ul class="resume-item-list"><li>Updated the existing jobs to read files with updated format from external vendor</li><li>Fixed the existing bugs to improve the data quality</li><li>Unit tested jobs to verify data and product quality</li><li>Developed new set of jobs for gathering data from multiple sources and provide it to differnt teams for data integration</li></ul>
 
 # Work Term 2
 - company: Wawanesa Insurance
