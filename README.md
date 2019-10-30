@@ -55,18 +55,21 @@ After successfully running the website with the template resume on GitHub Pages,
 
   > There maybe a scenario where the bundle install may fail to install a dependency but try reinstalling that dependency         using the link provided in the error.
 4. From the terminal there is a server address that is provided in the CLI. Mostly it is http://127.0.0.1:4000 or http://localhost:4000
-![]()
+![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Jekyll_Server_Start.png?raw=true)
 
 ### Where to update the content of the resume?
-1. After successfully running the template locally, make the required chanegs in \_config.yml like updating the name and other information.
-2. There are other settings also like enabling or disabling the different parts of the template like any section or images.
-3. If the template uses an image, then simply replace the image with the one that is more appropriate. The images might be under images folder in the root directory of the project.
-4. Update the content of the resume under the \_data folder.
-5. There might be a single or multiple YAML files used depending on the resume structure.
-6. Update the values in the key-value pair and add/remove the number of parts required.
+After running the template successfully on the local system, make changes in different files like \_config.yml and all files in folder \_data. The changes required varies from template to template but will mostly be in the mentioned files. Most changes are in the files with extension `yml` which can be opened using different text editors like Atom. Here are the different required changes in the files to make this resume your own:
+1. Update the information like name, title, links in \_config.yml file that gets displayed on the webpage.
+2. Enable or disable different configurations in \_config.yml file to hide or show different sections of the resume.
+3. Update the image if required by simply replacing the image with the one that is more appropriate in the images folder.
+4. Update the content of different sections of the resume under the \_data folder.
+   - There might be a single or multiple YAML files that covers different sections of the resume.
+   - Update the values for each key-value pairs. Comment the key-value pair that is not required.
+   - Depending on the content you need to insert into that section, the object of that sectioned can be inserted or removed (In screenshot below, each of these green boxes represent different objects of the section)
+   ![]()
 
 ### Final 
-1. After doing all the changes, commit and push the repository to the GitHub.
+1. After doing all the changes, commit and push the update to the GitHub repository.
 2. Run the GitHub Pages link for that repository to verify if the website is running correctly.
 
 ## More Resources
@@ -77,7 +80,7 @@ Tutorial to learning more about Jekyll and hosting the webpages on GitHub Pages 
 
 https://jekyllrb.com/docs/  
 https://jekyllrb.com/resources/  
-Resume used - https://github.com/jglovier/resume-template ([Joel Glovier](https://github.com/jglovier/))  
+Resume used in this guide - https://github.com/jglovier/resume-template ([Joel Glovier](https://github.com/jglovier/))  
 Group Members -
   - Wahegurupal Mankoo
   - Dilawer Hussain
