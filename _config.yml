@@ -20,7 +20,7 @@ resume_contact_email:           "dhillo18@myumanitoba.ca"
 resume_contact_telephone:       "204-899-5533"
 resume_contact_address:         "Winnipeg, Manitoba"
 
-resume_header_contact_info:     "Winnipeg, Manitoba • 1-800-432-1960 • dhillo18@myumanitoba.ca"
+resume_header_contact_info:     "Winnipeg, Manitoba • 204-899-5533 • dhillo18@myumanitoba.ca"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Currently a Computer Science student at University of Manitoba. Have a diverse work experience during the co-op terms as a front developer in a startup (RaceRunner), a full stack developer at Wawanesa Insurance and currently working at Investors group in their data platform. A very efficient, communicating and responsible in implementing big projects smoothly within their deadlines.</p>"
@@ -50,9 +50,9 @@ resume_social_links:
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/navjot-s-dhillon/"
-  resume_instagram_url:         "https://www.instagram.com/navjot_dhillon97/"
-  #resume_website_url:           "http://joelglovier.com"
-  #resume_medium_url:            "https://medium.com/@jglovier"
+  # resume_instagram_url:         "https://www.instagram.com/navjot_dhillon97/"
+  # resume_website_url:           "http://joelglovier.com"
+  # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings
