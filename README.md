@@ -1,17 +1,17 @@
 # How to Host Your Resume with Jekyll and GitHub Pages
 
-Jekyll is a static site generator which is used to create websites that can be hosted via GitHub Pages. There are many Jekyll templates available online that support GitHub Pages which allow for easy updates of content.
+Jekyll is a static site generator which is used to create websites that can be hosted via GitHub Pages. There are many Jekyll templates available online that support GitHub Pages which allow for an easy updates of content.
 
 In this guide we will:
 - Fork a Jekyll resume template
 - Edit and run it locally
-- Host it on Github Pages
+- Host it on GitHub Pages
 
 We will be creating a [Single Page Resume](https://navjotsdhillon.github.io/Resume/).
 
 ## Audience
 
-This guide is targeted for those who have some or more experience in using Github, Markdown, and Atom (or any other text editor that supports YAML and markdown). There is no prior experience required to work with Jekyll.
+This guide is targeted for those who have some or more experience in using GitHub, Markdown, and Atom (or any other text editor that supports YAML and markdown). There is no prior experience required to work with Jekyll.
 
 ## Prerequisites
 
@@ -31,22 +31,22 @@ There are a few requirements that need to be met before Jekyll can be installed.
 
 ## Instructions
 ### How to setup GitHub Pages?
-
-1. Find a Jekyll theme online that supports GitHub Pages.
+Firstly, find a Jekyll theme online that supports GitHub Pages.
     > Here are few links where you can find templates:
     > - https://jamstackthemes.dev/ssg/jekyll/
     > - http://jekyllthemes.org/
     > - https://jekyllthemes.io/
+Once you find the template that fits your requirements, follow these instructions to host that template on your GitHub Pages:
 
-2. Fork the chosen Jekyll Themes repository to get the copy in your own repository.
+1. Fork the chosen Jekyll Themes repository to get the copy in your own repository.
 
-3. Rename the forked repository based on your preference.
+2. Rename the forked repository based on your preference.
 
 ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/GitHub_Forking.gif?raw=true)
 
-4. Ensure if the branch is set to 'gh-pages'. If not, then create a new branch and name it 'gh-pages'.
+3. Ensure if the branch is set to 'gh-pages'. If not, then create a new branch and name it 'gh-pages'.
 
-5. Verify if the template is setup and runs properly in the GitHub Pages by following these steps:
+4. Verify if the template is setup and runs properly in the GitHub Pages by following these steps:
 
     1. Go to the Setting tab.
 
@@ -58,7 +58,7 @@ There are a few requirements that need to be met before Jekyll can be installed.
         > Note: It may take a few minutes for the website to load.
 
 ### How to run the website locally?
-After successfully running the website with the template resume on GitHub Pages, you can also run the website locally using Jekyll. It is a good idea to run it locally so that you can easily make changes and verify the changes locally without pushing the changes to the github repository.
+After successfully running the website with the template resume on GitHub Pages, you can also run the website locally using Jekyll. It is a good idea to run it locally so that you can easily make changes and verify the changes locally without pushing the changes to the GitHub repository.
 
 To run the website locally:
   1. Clone the repository on your local system.
@@ -84,7 +84,7 @@ Here are the different required changes in the files to make this resume your ow
 3. Update the image if required by simply replacing the image with the one that is more appropriate in the images folder.
 
 4. Update the content of different sections of the resume under the `\_data` folder.
-   - There might be a single or multiple YAML files that covers different sections of the resume.
+   - There might be a single or multiple `YAML` files that covers different sections of the resume.
    - Update the values for each `key-value` pairs. Comment the `key-value` pairs which are not required.
    - Depending on the content you insert into that section, the object(s) of that section(s) can be inserted or removed (As show in the screenshot below, each of these green boxes represent different objects of the specific sections)
    ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Objects.png?raw=true)
