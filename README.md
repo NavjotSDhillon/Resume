@@ -25,6 +25,7 @@ There are few requirements that are required to be met before Jekyll could be in
 
 ## Instructions
 ### How to initially setup GitHub Pages?
+
 1. Find a Jekyll theme online that supports GitHub Pages.
     > Here are few links where you can find templates:
     > - https://jamstackthemes.dev/ssg/jekyll/
@@ -46,14 +47,15 @@ There are few requirements that are required to be met before Jekyll could be in
 After successfully running the website with the template resume on GitHub Pages, run the webpage on the local machine using Jekyll server. It is good idea to run it locally so that you can easily make changes and verify the changes locally without pushing the changes to the github repository. To run the website locally:
 1. Clone the repository on your local system.
 2. After cloning, go to the project folder in your CLI and run the following commands to start the Jekyll server:
-```
-$bundle install
-$bundle exec jekyll serve
-```
-> The `$bundle install` command is required only once whereas to run the server jekyll serve you need to enter `$bundle exec jekyll serve` command every time.  
+  ```
+  $bundle install
+  $bundle exec jekyll serve
+  ```
+  > The `$bundle install` command is required only once whereas to run the server jekyll serve you need to enter `$bundle exec    jekyll serve` command every time.  
 
-> There maybe a scenario where the bundle install may fail to install a dependency but try reinstalling that dependency using the link provided in the error.
-4. From the terminal there is a server address that is provided in the terminal. Mostly it is http://127.0.0.1:4000 or http://localhost:4000
+  > There maybe a scenario where the bundle install may fail to install a dependency but try reinstalling that dependency         using the link provided in the error.
+4. From the terminal there is a server address that is provided in the CLI. Mostly it is http://127.0.0.1:4000 or http://localhost:4000
+![]()
 
 ### Where to update the content of the resume?
 1. After successfully running the template locally, make the required chanegs in \_config.yml like updating the name and other information.
