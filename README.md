@@ -58,18 +58,20 @@ After successfully running the website with the template resume on GitHub Pages,
 ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Jekyll_Server_Start.png?raw=true)
 
 ### Where to update the content of the resume?
-After running the template successfully on the local system, make changes in different files like \_config.yml and all files in folder \_data. The changes required varies from template to template but will mostly be in the mentioned files. Most changes are in the files with extension `yml` which can be opened using different text editors like Atom. Here are the different required changes in the files to make this resume your own:
-1. Update the information like name, title, links in \_config.yml file that gets displayed on the webpage.
-2. Enable or disable different configurations in \_config.yml file to hide or show different sections of the resume.
+After running the template successfully on the local system, make changes in different files like `\_config.yml` and all files in folder `\_data`. The changes required varies from template to template but will mostly be in the mentioned files. Most changes are in the files with extension `yml` which can be opened using different text editors like Atom. Here are the different required changes in the files to make this resume your own:
+1. Update the information like name, title, links in `\_config.yml` file that gets displayed on the webpage.
+2. Enable or disable different configurations in `\_config.yml` file to hide or show different sections of the resume.
 3. Update the image if required by simply replacing the image with the one that is more appropriate in the images folder.
-4. Update the content of different sections of the resume under the \_data folder.
+4. Update the content of different sections of the resume under the `\_data` folder.
    - There might be a single or multiple YAML files that covers different sections of the resume.
    - Update the values for each key-value pairs. Comment the key-value pair that is not required.
    - Depending on the content you need to insert into that section, the object of that sectioned can be inserted or removed (In screenshot below, each of these green boxes represent different objects of the section)
    ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Objects.png?raw=true)
 
 ### What to do once the changes are made?
-After the resume is updated, upload the changes to the GitHub repository. Once the repository is updated with new content, use the link used previously to load the webpage using GitHub Pages. You Resume is now published online using Jekyll and GitHub Pages.
+After the resume is updated, upload the changes to the GitHub repository. Once the repository is updated with new content, use the link used previously to load the webpage using GitHub Pages. You Resume is now published online using Jekyll and GitHub Pages. 
+Finally, create a `README.md` file in markdown to give the description of the project, acknowledgements and any other important details.
+  > The `README.md` will be there in the main directory of the repository. It can be editted locally using Atom and pushed back again or can be edited directly in GitHub.
 
 ## More Resources
 Here are few links if you want to learn more about:
@@ -86,7 +88,7 @@ Group Members -
 
 ## FAQs
 Q - Why the changes are not reflected when the page is reloaded locally?  
-A - If the changes are made in the \_congif.yml file, then the server is required to be restarted. If the changes are made in any other file, then there is a high possibility of a syntax error in the changes that were made. Review the changes.
+A - If the changes are made in the `\_congif.yml` file, then the server is required to be restarted. If the changes are made in any other file, then there is a high possibility of a syntax error in the changes that were made. Review the changes.
 
 Q - How to fix the issue if `ffi` installation is failing while installing the bundle?  
 A - Try to manually install `ffi` using the link given in the error. If it is failing again, refer to paulomcnally's comment on this [link](https://github.com/ffi/ffi/issues/611#issuecomment-364621532).
