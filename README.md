@@ -32,7 +32,8 @@ There are a few requirements that need to be met before Jekyll can be installed.
 ## Instructions
 ### How to setup GitHub Pages?
 Firstly, find a Jekyll theme online that supports GitHub Pages.
-    > Here are few links where you can find templates:
+
+    > Here are few links where you can find templates
     > - https://jamstackthemes.dev/ssg/jekyll/
     > - http://jekyllthemes.org/
     > - https://jekyllthemes.io/
