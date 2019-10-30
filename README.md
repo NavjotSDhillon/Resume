@@ -36,12 +36,12 @@ There are few requirements that are required to be met before Jekyll could be in
 ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/GitHub_Forking.gif?raw=true)
 4. Verify if the branch is 'gh-pages'. If not then create the branch named 'gh-pages'.
 4. Verify if the template is setup and runs properly in the GitHub Pages by following these steps:
-  a. Go to the Setting tab.
-  b. Verify under heading GitHub Pages if it gives a message that the site is successfully published and 'gh-pages' branch is selected.
-  ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Website_published.png?raw=true)
-  > If the original developer is using CNAME, there will be an error message shown mentioning the CNAME. This error is shown because CNAME is the custom domain and there shouldn't be more than one repository with the same CNAME.
-  c. Click on the link which should be in format: `https://{GitHub_Username}.github.io/{Repository_Name}/`
-  > Note: It may take few minutes for the website to load.
+    1. Go to the Setting tab.
+    2. Verify under heading GitHub Pages if it gives a message that the site is successfully published and 'gh-pages' branch is selected.
+    ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Website_published.png?raw=true)
+        > If the original developer is using CNAME, there will be an error message shown mentioning the CNAME. This error is shown because CNAME is the custom domain and there shouldn't be more than one repository with the same CNAME.  
+    3. Click on the link which should be in format: `https://{GitHub_Username}.github.io/{Repository_Name}/`  
+        > Note: It may take few minutes for the website to load.
   
 ### How to run the website locally?
 After successfully running the website with the template resume on GitHub Pages, run the webpage on the local machine using Jekyll server. It is good idea to run it locally so that you can easily make changes and verify the changes locally without pushing the changes to the github repository. To run the website locally:
