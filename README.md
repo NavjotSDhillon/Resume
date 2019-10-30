@@ -1,8 +1,10 @@
-# How to Host Your Resume on GitHub Page
+# How to Host Your Resume with Jekyll and GitHub Pages
 
 Jekyll is a tool used to create static website that can be pushed to GitHub Pages. There are many Jekyll templates available online that supports GitHub Pages which can be used to create a website easily.
 
 In this guide we will fork a Jekyll resume template, edit and run it locally. The changes will be then pushed to the GitHub repository. Then content in the repository is hosted on the GitHub Pages.
+
+Click on the [link](https://navjotsdhillon.github.io/Resume/) to view the webpage.
 
 ## Audience
 
@@ -86,5 +88,5 @@ Group Members -
 Q - Why the changes are not reflected when the page is reloaded locally?  
 A - If the changes are made in the \_congif.yml file, then the server is required to be restarted. If the changes are made in any other file, then there is a high possibility of a syntax error in the changes that were made. Review the changes.
 
-Q - How to fix the issue if `ffi` installation is failing while installing the bundle?
+Q - How to fix the issue if `ffi` installation is failing while installing the bundle?  
 A - Try to manually install `ffi` using the link given in the error. If it is failing again, refer to paulomcnally's comment on this [link](https://github.com/ffi/ffi/issues/611#issuecomment-364621532).
