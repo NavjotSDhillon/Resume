@@ -37,7 +37,7 @@ There are few requirements that are required to be met before Jekyll could be in
 3. Rename the forked repository based on the requirement.
 ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/GitHub_Forking.gif?raw=true)
 4. Verify if the branch is 'gh-pages'. If not then create the branch named 'gh-pages'.
-4. Verify if the template is setup and runs properly in the GitHub Pages by following these steps:
+5. Verify if the template is setup and runs properly in the GitHub Pages by following these steps:
     1. Go to the Setting tab.
     2. Verify under heading GitHub Pages if it gives a message that the site is successfully published and 'gh-pages' branch is selected.
     ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Website_published.png?raw=true)
@@ -54,9 +54,7 @@ After successfully running the website with the template resume on GitHub Pages,
   $bundle exec jekyll serve
   ```
   > The `$bundle install` command is required only once whereas to run the server jekyll serve you need to enter `$bundle exec    jekyll serve` command every time.  
-
-  > There maybe a scenario where the bundle install may fail to install a dependency but try reinstalling that dependency         using the link provided in the error.
-4. From the terminal there is a server address that is provided in the CLI. Mostly it is http://127.0.0.1:4000 or http://localhost:4000
+3. From the terminal there is a server address that is provided in the CLI. Mostly it is http://127.0.0.1:4000 or http://localhost:4000
 ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Jekyll_Server_Start.png?raw=true)
 
 ### Where to update the content of the resume?
@@ -74,11 +72,13 @@ After running the template successfully on the local system, make changes in dif
 After the resume is updated, upload the changes to the GitHub repository. Once the repository is updated with new content, use the link used previously to load the webpage using GitHub Pages. You Resume is now published online using Jekyll and GitHub Pages.
 
 ## More Resources
-Tutorial to learning more about Jekyll and hosting the webpages on GitHub Pages - https://www.mikedane.com/static-site-generators/jekyll/
+Here are few links if you want to learn more about:
+ - [Markdown](https://github.github.com/gfm/)
+ - [Jekyll and hosting the webpages on GitHub Pages](https://www.mikedane.com/static-site-generators/jekyll/)
 
 ## Author and Acknowledgements
-[Jekyll brief installtion guide](https://jekyllrb.com/docs/)  
-[Jekyll Resources with all the links](https://jekyllrb.com/resources/)  
+[Jekyll Resources with other useful links](https://jekyllrb.com/resources/)
+[Jekyll brief installtion guide](https://jekyllrb.com/docs/)    
 [Joel Glovier's Template](https://github.com/jglovier/resume-template) (Resume template used in this guide)
 Group Members -
   - Wahegurupal Mankoo
