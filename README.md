@@ -32,11 +32,11 @@ There are a few requirements that need to be met before Jekyll can be installed.
 ## Instructions
 ### How to setup GitHub Pages?
 Firstly, find a Jekyll theme online that supports GitHub Pages.
-
-    > Here are few links where you can find templates
-    > - https://jamstackthemes.dev/ssg/jekyll/
-    > - http://jekyllthemes.org/
-    > - https://jekyllthemes.io/
+  > Here are few links where you can find templates
+  > - https://jamstackthemes.dev/ssg/jekyll/
+  > - http://jekyllthemes.org/
+  > - https://jekyllthemes.io/  
+  
 Once you find the template that fits your requirements, follow these instructions to host that template on your GitHub Pages:
 
 1. Fork the chosen Jekyll Themes repository to get the copy in your own repository.
@@ -87,7 +87,7 @@ Here are the different required changes in the files to make this resume your ow
 4. Update the content of different sections of the resume under the `\_data` folder.
    - There might be a single or multiple `YAML` files that covers different sections of the resume.
    - Update the values for each `key-value` pairs. Comment the `key-value` pairs which are not required.
-   - Depending on the content you insert into that section, the object(s) of that section(s) can be inserted or removed (As show in the screenshot below, each of these green boxes represent different objects of the specific sections)
+   - Depending on the content you need to insert into that section, the object(s) of that section(s) can be inserted or removed (As show in the screenshot below, each of these green boxes represent different objects of the specific sections)
    ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Objects.png?raw=true)
 
 ### What to do once the changes are made?
