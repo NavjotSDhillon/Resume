@@ -36,19 +36,23 @@ There are few requirements that are required to be met before Jekyll could be in
 4. Verify if the branch is 'gh-pages'. If not then create the branch named 'gh-pages'.
 4. Verify if the template is setup and runs properly in the GitHub Pages by following these steps:
   a. Go to the Setting tab.
-  b. Verify 
-4. Run the forked template to see if there are no issue running the template.
-5. To run the template, go to settings tab in github. Under heading GitHub Pages, check if the site is successfully published. If not follow the instructions provided.
-6. The most common issue is that the original developer maybe using a CNAME which can't be same for any two repositories.
-
+  b. Verify under heading GitHub Pages if it gives a message that the site is successfully published and 'gh-pages' branch is selected.
+  ![](https://github.com/NavjotSDhillon/Resume/blob/gh-pages/Website_published.png?raw=true)
+  > If the original developer is using CNAME, there will be an error message shown mentioning the CNAME. This error is shown because CNAME is the custom domain and there shouldn't be more than one repository with the same CNAME.
+  c. Click on the link which should be in format: `https://{GitHub_Username}.github.io/{Repository_Name}/`
+  > Note: It may take few minutes for the website to load.
+  
 ### How to run the website locally?
-1. Clone the repository locally to update the resume.
-2. After cloning, go to the project folder using terminal and run the following commands to start the Jekyll server:
+After successfully running the website with the template resume on GitHub Pages, run the webpage on the local machine using Jekyll server. It is good idea to run it locally so that you can easily make changes and verify the changes locally without pushing the changes to the github repository. To run the website locally:
+1. Clone the repository on your local system.
+2. After cloning, go to the project folder in your CLI and run the following commands to start the Jekyll server:
 ```
 $bundle install
 $bundle exec jekyll serve
 ```
-3. There maybe a scenario where the bundle install may fail to install a dependency but try reinstalling that dependency using the link provided in the error.
+> The `$bundle install` command is required only once whereas to run the server jekyll serve you need to enter `$bundle exec jekyll serve` command every time.  
+
+> There maybe a scenario where the bundle install may fail to install a dependency but try reinstalling that dependency using the link provided in the error.
 4. From the terminal there is a server address that is provided in the terminal. Mostly it is http://127.0.0.1:4000 or http://localhost:4000
 
 ### Where to update the content of the resume?
@@ -69,8 +73,8 @@ Tutorial to learning more about Jekyll and hosting the webpages on GitHub Pages 
 
 ## Author and Acknowledgements
 
-https://jekyllrb.com/docs/
-https://jekyllrb.com/resources/
+https://jekyllrb.com/docs/  
+https://jekyllrb.com/resources/  
 Resume used - https://github.com/jglovier/resume-template ([Joel Glovier](https://github.com/jglovier/))  
 Group Members -
   - Wahegurupal Mankoo
